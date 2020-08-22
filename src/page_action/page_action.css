@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster:wght@400;700');
+
+@font-face {
+    font-family: 'iec_symbols_unicoderegular';
+    src: url('../../css/Unicode_IEC_symbol.woff2') format('woff2');
+    font-weight: light;
+    font-style: normal;
+}
+
+body,html {
+	margin: 0;
+	padding: 0;
+	background: url(../../img/fondito.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-color: #1c1a1e;
+}
+#mainPopup {
+	font-family: 'Lobster', sans-serif;		
+	padding: 0;
+	margin: 0;
+	height: 350px;
+	width: 300px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;		
+}
+h1 {
+	font-family: 'Lobster', sans-serif;	
+	margin: 0;
+	padding: 2px;		
+	display: block;
+	text-align: center;		
+	font-size: 1.5em;
+	font-weight: 300;
+	color: white;
+}
+
+.sectionTitle {
+	font-family: 'Lobster', sans-serif;
+	font-size: .9em;
+	font-weight: 400;
+	color: #ffffff;
+	padding: 2px;
+	padding-left: 8px;
+	margin: 0;
+	border-width: 1px;		
+		
+}
+.sectionTitle span {
+	padding: 0 5px 0 0;
+}	
+.section { 
+	padding: 5px;
+}
+.section select, input {
+	font-size: 0.8em;
+	margin-left: 4px;
+}
+.colPickRow {
+	position: relative;
+	display: inline-block;
+	top: 1px;
+	height: 15px;
+	width: 80%;
+	margin:0;
+	padding: 0;
+}	
+.colorPickerContainer {		
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	padding: 0;
+	margin: 2px;
+	border-width: 1px;
+	border-color: #000;
+	border-style: solid;
+	overflow: hidden;
+}
+.minicolors-panel {
+	position: fixed;
+	top: 2px;
+	margin: 0 20px 0 0;
+}
+.addSubContainer {
+	display: inline-block;
+	float:left;
+	font-size: 1.5em;
+	font-weight: 500;
+	margin: 1px 10px 0 10px;
+	user-select: none;
+}
+#sub {		
+	padding-left: 2px;
+	margin: 0 5px 0 5px;
+	color: rgb(255, 255, 255);
+}
+#add {
+	margin: 0 5px 0 5px;
+	color: rgb(255, 255, 255);
+}
+
+#preview {		
+	padding: 1px 0 2px 22px;
+	background-color: #eeeef5;
+}
+#preview span {
+	padding: 0 ;
+	margin: 0 -1px 0 0;
+	font-size: 1.6em;
+	color: green;
+}
+#powerButton {
+	font-family: 'iec_symbols_unicoderegular';
+	font-size: 1.2em;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 50px;
+	height: 18px;
+	color: white;
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	user-select: none;
+}
+#powerButton.off {	
+	padding: 4px 12px 2px 0;
+	text-align: right;
+	background: linear-gradient(to right, #7f0000 31%,#ff0505 100%);
+}
+#powerButton.on {		
+	padding: 4px 0 2px 12px;
+	background: linear-gradient(to right, #00FF00 0%, #bfff00 100%);
+}
+#fixedLengthTitle {
+	padding-left: 15px;
+}
+#colorControls {
+	margin: 0;
+	padding: 0;
+}
+#togglesContainer {
+	padding: 2px 0 0 0;
+	margin: 0;
+	vertical-align: center;
+}
+#blendNameToggleContainer { 
+	display: inline-block;
+	padding: 0 40px 0 15px;
+}
+#blendNameTitle { 
+	padding: 0 12px 0 0;
+}
+#atNameTitle {
+	padding: 0 32px 0 0;
+}
+
+#atNameColorContainer {
+	display: inline-block;
+	margin: 0;
+	padding: 0 20px 0 0;
+}
+#atNameColorToggle { 
+}
+#urlColorContainer {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}

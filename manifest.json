@@ -1,0 +1,49 @@
+{
+  "name": "Kawaii Chatango",
+  "version": "0.2.3",
+  "manifest_version": 2,
+  "description": "Extend the Chatango HTML5 client with color effects and more", 
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "permissions": [    
+    "https://*.chatango.com/*",
+    "storage",
+    "cookies"
+  ],
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+  "page_action": {
+    "default_icon": "icons/icon16.png",
+    "default_title": "Kawaii Chatango",
+    "default_popup": "src/page_action/page_action.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://st.chatango.com/*/id.html"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ],
+      "css": [
+        "js/spectrum.css"
+      ],
+      "run_at": "document_start",
+      "all_frames": true      
+    }
+  ],
+  "externally_connectable": {
+    "matches": ["https://st.chatango.com/*/id.html"]
+  },
+  "web_accessible_resources": [ 
+    "css/*",
+    "js/*",
+    "icons/*"
+  ]
+}
