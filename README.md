@@ -1,7 +1,7 @@
 # Kawaii-Chatango
 Por favor es una versión modificada de chatango extender, ya que la original dejo de funcionar.
 
-Como instalar la extencion el nuestro navegador chrome sigan los pasos :v
+Como instalar la extencion en nuestro navegador de chrome sigan los pasos :v
 
 1) https://i.ibb.co/4281vgp/1.jpg<br>
 2) https://i.ibb.co/PNzmByD/2.jpg<br>
