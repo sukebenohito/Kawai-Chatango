@@ -26,7 +26,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://st.chatango.com/*/id.html"
+        "https://st.chatango.com/*/id.html", "http://st.chatango.com/*/id.html", "https://st.chatango.com/*/it.html", "http://st.chatango.com/*/it.html"
       ],
       "js": [
         "src/inject/inject.js"
@@ -39,7 +39,7 @@
     }
   ],
   "externally_connectable": {
-    "matches": ["https://st.chatango.com/*/id.html"]
+    "matches": ["https://st.chatango.com/*/id.html", "http://st.chatango.com/*/id.html", "https://st.chatango.com/*/it.html", "http://st.chatango.com/*/it.html"]
   },
   "web_accessible_resources": [ 
     "css/*",
